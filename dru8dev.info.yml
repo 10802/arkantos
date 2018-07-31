@@ -1,0 +1,12 @@
+name: dru8dev
+type: theme
+description: 'dru8dev theme.'
+core: 8.x
+libraries:
+  - dru8dev/global-styling
+base theme: classy
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer

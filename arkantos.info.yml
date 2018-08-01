@@ -1,12 +1,7 @@
-name: dru8dev
+name: arkantos
 type: theme
 description: 'A Simple Drupal 8 theme.'
 core: 8.x
 libraries:
-  - dru8dev/global-styling
-base theme: classy
-regions:
-  header: Header
-  content: Content
-  sidebar_first: 'Sidebar first'
-  footer: Footer
+  - arkantos/global-styling
+stylesheets-remove:

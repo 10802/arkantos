@@ -4,4 +4,4 @@ global-styling:
     theme:
       css/style.css: {}
   js:
-    js/dru8dev.js: {}
+    js/arkantos.js: {}

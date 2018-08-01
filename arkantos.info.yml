@@ -4,4 +4,4 @@ description: 'A Simple Drupal 8 theme.'
 core: 8.x
 libraries:
   - arkantos/global-styling
-stylesheets-remove:
+  - arkantos/global-scripting

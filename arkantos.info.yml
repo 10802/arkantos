@@ -1,6 +1,6 @@
 name: arkantos
 type: theme
-description: 'A Simple Drupal 8 theme.'
+description: 'A Simple Drupal 8 theme for iQuanti.'
 core: 8.x
 libraries:
   - arkantos/global-styling

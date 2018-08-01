@@ -1,6 +1,6 @@
 name: dru8dev
 type: theme
-description: 'dru8dev theme.'
+description: 'A Simple Drupal 8 theme.'
 core: 8.x
 libraries:
   - dru8dev/global-styling

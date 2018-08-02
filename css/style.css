@@ -1,4 +1,4 @@
-/*! Arkantos Theme Styling */
+/*! Arkantos Theme Styling 
 
 .layout-content{
     color: darkslategray;
@@ -14,7 +14,7 @@
 /* .layout-container{
     padding: 0 5%;
 } */
-
+/*
 nav#block-arkantos-main-menu {
     background: #ddd;
     padding: 10px;
@@ -33,4 +33,29 @@ nav#block-arkantos-main-menu {
     text-decoration: none;
     color: #333;
     text-transform: uppercase;
+}
+
+*/
+
+header {
+    background-color: #ee6e73;
+    overflow: hidden;
+}
+
+header a {}
+
+.brand-logo {
+    float:  left;
+    max-width: 25%;
+}
+
+nav#block-arkantos-main-menu {
+    float:  right;
+    max-width: 75%;
+    box-shadow: none;
+}
+
+.brand-logo a {
+    padding: 10px;
+    display: inline-block;
 }

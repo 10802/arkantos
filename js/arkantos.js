@@ -2,8 +2,6 @@
 var urlFetch = window.location.href;
 console.log("Current URL is :"+urlFetch);
 
-
-<script>
 window.onscroll = function() {
   shrinklogo()
 };
@@ -16,4 +14,3 @@ function shrinklogo() {
     logo.style.width = '100%';
   }
 }
-</script>

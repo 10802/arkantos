@@ -42,7 +42,7 @@ header {
     overflow: hidden;
 }
 
-header a {}
+/* header a {} */
 
 .brand-logo {
     float:  left;
@@ -58,4 +58,24 @@ nav#block-arkantos-main-menu {
 .brand-logo a {
     padding: 10px;
     display: inline-block;
+}
+
+.banner{
+    background: url("../images/iquanti-banner1.jpg") no-repeat center center;
+    min-height: 500px;
+}
+
+.bannerheading{
+    font-family: 'Ubuntu';
+    text-align: center;
+    color: antiquewhite;
+}
+
+.bannersubheading{
+    font-family: 'Ubuntu';
+    text-align: center;
+    color: antiquewhite;
+}
+.bannerbutton{
+    text-align: center;
 }

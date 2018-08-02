@@ -1,18 +1,14 @@
-
-<div class="layout-container">
-
-  <header role="banner">
-     <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
+<header class="headerclass" role="banner">
+    {{ page.header }}
   </header>
+
+  <div class="banner">
+    <h2 class="bannerheading">iQuanti Digital Marketing Services</h1>
+    <h4 class="bannersubheading">Unparalleled data-driven digital marketing services focused</h3>
+    <button class="btn bannerbutton">Explore our Solutions</button>
+  </div>
+
+<div class="container">
 
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
@@ -29,10 +25,13 @@
 
   </main>
 
-  {% if page.footer %}
+  
+
+</div>{# /.layout-container #}
+
+
+{% if page.footer %}
     <footer role="contentinfo">
       {{ page.footer }}
     </footer>
   {% endif %}
-
-</div>{# /.layout-container #}

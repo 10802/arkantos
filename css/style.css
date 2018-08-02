@@ -1,1 +1,36 @@
 /*! Arkantos Theme Styling */
+
+.layout-content{
+    color: darkslategray;
+}
+
+.layout-content p{
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 5%;
+
+}
+
+/* .layout-container{
+    padding: 0 5%;
+} */
+
+nav#block-arkantos-main-menu {
+    background: #ddd;
+    padding: 10px;
+}
+
+#block-arkantos-main-menu ul {
+    padding: 0;
+}
+
+#block-arkantos-main-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#block-arkantos-main-menu li a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+}

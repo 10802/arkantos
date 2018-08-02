@@ -38,44 +38,54 @@ nav#block-arkantos-main-menu {
 */
 
 header {
-    background-color: #ee6e73;
-    overflow: hidden;
+  background-color: #ee6e73;
+  overflow: hidden;
 }
 
 /* header a {} */
 
 .brand-logo {
-    float:  left;
-    max-width: 25%;
+  float: left;
+  max-width: 25%;
 }
 
 nav#block-arkantos-main-menu {
-    float:  right;
-    max-width: 75%;
-    box-shadow: none;
+  float: right;
+  max-width: 75%;
+  box-shadow: none;
 }
 
 .brand-logo a {
-    padding: 10px;
-    display: inline-block;
+  padding: 10px;
+  display: inline-block;
 }
 
-.banner{
-    background: url("../images/iquanti-banner1.jpg") no-repeat center center;
-    min-height: 500px;
+.banner {
+  background: url("../images/iquanti-banner1.jpg") no-repeat center center;
+  min-height: 500px;
 }
 
-.bannerheading{
-    font-family: 'Ubuntu';
-    text-align: center;
-    color: antiquewhite;
+.bannerheading {
+  font-family: "Ubuntu";
+  text-align: center;
+  color: antiquewhite;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  padding-top: 10%;
 }
 
-.bannersubheading{
-    font-family: 'Ubuntu';
-    text-align: center;
-    color: antiquewhite;
+.bannersubheading {
+  font-family: "Ubuntu";
+  text-align: center;
+  color: antiquewhite;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
-.bannerbutton{
-    text-align: center;
+#bannerbutton {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#clientbox {
+  display: flex;
+  justify-content: center;
 }

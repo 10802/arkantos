@@ -1,37 +1,48 @@
 <header class="headerclass" role="banner">
-    {{ page.header }}
-  </header>
+  {{ page.header }}
+</header>
 
-  <div class="banner">
-    <h2 class="bannerheading">iQuanti Digital Marketing Services</h1>
+<div class="banner">
+  <h2 class="bannerheading">iQuanti Digital Marketing Services</h1>
     <h4 class="bannersubheading">Unparalleled data-driven digital marketing services focused</h3>
-    <button class="btn bannerbutton">Explore our Solutions</button>
-  </div>
+      <div id="bannerbutton">
+        <a href="https://www.iquanti.com/services/">
+          <button class="btn">Explore our Solutions</button>
+        </a>
+      </div>
+</div>
+<div id="clientbox">
 
+  <div class="row">
+    <div class="col s1">1one</div>
+    <div class="col s1">2woo</div>
+    <div class="col s1">3ee</div>
+    <div class="col s1">4rr</div>
+    <div class="col s1">5vv</div>
+    <div class="col s1">6sss</div>
+    <div class="col s1">7nnn</div>
+    <div class="col s1">8tt</div>
+  </div>
+</div>
 <div class="container">
 
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
     <div class="layout-content">
       {{ page.content }}
-    </div>{# /.layout-content #}
-
-    {% if page.sidebar %}
-      <aside class="layout-sidebar" role="complementary">
-        {{ page.sidebar }}
-      </aside>
+    </div>{# /.layout-content #} {% if page.sidebar %}
+    <aside class="layout-sidebar" role="complementary">
+      {{ page.sidebar }}
+    </aside>
     {% endif %}
 
 
   </main>
 
-  
-
-</div>{# /.layout-container #}
 
 
-{% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endif %}
+</div>{# /.layout-container #} {% if page.footer %}
+<footer role="contentinfo">
+  {{ page.footer }}
+</footer>
+{% endif %}

@@ -63,6 +63,10 @@ nav#block-arkantos-main-menu {
 .banner {
   background: url("../images/iquanti-banner1.jpg") no-repeat center center;
   min-height: 500px;
+  
+  float: left;
+  width: 100%;
+
 }
 
 .bannerheading {
@@ -95,11 +99,11 @@ nav#block-arkantos-main-menu {
   text-align: center;
 }
 
-.button--primary{
+/* .button--primary{
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-}
+} */

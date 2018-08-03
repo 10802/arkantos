@@ -94,3 +94,12 @@ nav#block-arkantos-main-menu {
   padding-top: 10px;
   text-align: center;
 }
+
+.button--primary{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}

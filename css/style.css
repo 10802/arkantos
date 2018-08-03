@@ -89,3 +89,8 @@ nav#block-arkantos-main-menu {
   display: flex;
   justify-content: center;
 }
+
+.footerstyle {
+  padding-top: 10px;
+  text-align: center;
+}
